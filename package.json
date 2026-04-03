@@ -1,14 +1,1 @@
-{  
-  "name": "tracker-app",  
-  "version": "1.0.0",  
-  "scripts": {  
-    "dev": "vite",  
-    "build": "vite build",  
-    "serve": "vite serve"  
-  },  
-  "devDependencies": {  
-    "typescript": "^4.0.0",  
-    "vite": "^2.0.0",  
-    "tailwindcss": "^2.0.0"  
-  }  
-}
+{\n  "name": "tracker",\n  "version": "0.1.0",\n  "scripts": {\n    "dev": "vite",\n    "build": "vite build",\n    "serve": "vite preview"\n  },\n  "dependencies": {\n    "react": "^17.0.0",\n    "react-dom": "^17.0.0",\n    "supabase-js": "^1.27.0",\n    "zustand": "^3.5.10",\n    "recharts": "^2.1.9",\n    "crypto-js": "^4.1.1",\n    "jszip": "^3.10.1"\n  },\n  "devDependencies": {\n    "typescript": "^4.5.4",\n    "vite": "^2.9.0",\n    "@vitejs/plugin-react": "^2.0.0",\n    "tailwindcss": "^3.0.0",\n    "postcss": "^8.4.5"\n  }\n}
